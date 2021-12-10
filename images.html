@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>Where to - Melres</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style_image.css" />
+    <link rel="stylesheet" href="css/style_global.css" />
+    <script src="js/codigo_image.js"></script>
+    <script src="js/codigo_global.js"></script>
+
+</head>
+
+<body>
+    <div class="header">
+        <div id="logo">
+            <a onclick="toggleNav()"> <img src="media/logo.png" alt="Town logo" /> </a>
+        </div>
+        <div class="navigation_tab1">
+            <nav>
+                <a href="index.html">HOME</a>
+                <a href="images.html">Images</a>
+                <a href="about.html">About</a>
+                <a href="news.html">News</a>
+            </nav>
+        </div>
+    </div>
+    <div>
+        <div class="container_main">
+            <div class="child_image" id="child"><img src="media/cais_header.jpg" alt="Melres boat port" onclick="openOverlay('media/cais_header.jpg')" /></div>
+            <div class="child_image" id="child"><img src="media/2_eiramelo.JPG" alt="Eira de melo" onclick="openOverlay('media/2_eiramelo.JPG')"/></div>
+            <div class="child_image" id="child"><img src="media/4_rio_eiramelo.JPG" alt="Eira de melo boat port" onclick="openOverlay('media/4_rio_eiramelo.JPG')"/></div>
+            <div class="child_image" id="child"><img src="media/5_lomba.JPG" alt="Praia da Lomba" onclick="openOverlay('media/5_lomba.JPG')" /></div>
+            <div class="child_image" id="child"><img src="media/5_praia.jpg" alt="Praia de Melres" onclick="openOverlay('media/5_praia.jpg')"/></div>
+            <div class="child_image" id="child"><img src="media/2_sTiago_costa.JPG" alt="São Tiago" onclick="openOverlay('media/2_sTiago_costa.JPG')"/></div>
+
+        </div>
+    </div>
+    <div class="image_overlay">
+        <button onclick="closeOverlay()">X</button>
+    </div>
+</body>
+
+</html>
